@@ -1,6 +1,6 @@
 [project]
 name = "splitdatasets"
-version = "0.1.0"
+version = "0.9.0"
 description = "Tools to randomly move images and split datasets (local or S3) into train/val/test."
 authors = [{ name = "Daniel Robotics", email = "grabardm@ml-dev.ru" }]
 license = "MIT"
@@ -18,3 +18,8 @@ split-dataset-s3 = "split_dataset.split_dataset_s3:main"
 [build-system]
 requires = ["uv", "setuptools"]
 build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/Daniel-Robotic/SplitDatasets"
+Source = "https://github.com/Daniel-Robotic/SplitDatasets"
+Tracker = "https://github.com/Daniel-Robotic/SplitDatasets/issues"
